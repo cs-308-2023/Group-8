@@ -4,10 +4,11 @@ using namespace std;
 
 int factorial(int n){
 
+    // Negative number check
     while (n < 0){
         int x;
         cout << "Enter valid positive number\n"; 
-        cin >> x;
+        cin >> x; // Taking new input
         n = x;
     }
 
