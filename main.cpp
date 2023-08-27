@@ -8,8 +8,11 @@ int main(){
 
     int x = 56;
     int y = 98;
-    cout << "GCD IMPLEMENTATION:\n";
+    cout << "\nGCD IMPLEMENTATION:\n";
     cout << "The GCD of " << x << " and " << y << " is " << gcd_non_recursive(x, y) << endl;
+
+    cout << "Using recursive function:\n";
+    cout << "The GCD of " << x << " and " << y << " is " << gcd_recursive(x, y) << endl;
 
     return 0;
 }
